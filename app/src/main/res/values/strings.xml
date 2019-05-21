@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Note App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_tasks">Tasks</string>
+    <string name="tab_habits">Habits</string>
+    <string name="tab_time_left">My Time Left</string>
+    <!-- TODO: This line could possibly be removed -->
+    <string name="tab_learn">Learn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="calendar">Calendar</string>
+    <string name="statistics">Statistics</string>
+    <string name="timeline">Timeline</string>
+    <string name="achievements">Achievements</string>
+
+    <string name="supports">Supports</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="hint_task_title">Title</string>
+    <string name="create_new_task">New Task</string>
+    <string name="hint_due">Due day</string>
+    <string name="hint_due_time">Time</string>
+    <string name="hint_description">Enter your description</string>
+    <string name="snack_date_not_set">Please select a due date.</string>
+    <string name="snack_op_set">Set</string>
+    <string name="snack_time_not_set">Please select the due time.</string>
+    <string name="snack_title_not_set">Empty title.</string>
+    <string name="snack_time_passed">has passed.</string>
+    <string name="confirm">Confirm</string>
+    <string name="time">Time</string>
+    <string name="hint_freq">Frequency</string>
+    <string name="create_new_habit">New habit</string>
+    <string name="thrice_a_day">Three times a day</string>
+    <string name="twice_a_day">Twice a day</string>
+    <string name="every_day">Every day</string>
+    <string name="once_two_days">Once two days</string>
+    <string name="once_three_days">Once three days</string>
+    <string name="once_a_week">Once a week</string>
+    <string name="once_a_fortnight">Once a fortnight</string>
+    <string name="once_a_month">Once a month</string>
+    <string name="hint_importance">Importance</string>
+    <string name="create_new_time_left">New countdown</string>
+    <string name="hint_quick_add">Quick add</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="undo">Undo</string>
+    <string name="snack_one_item_deleted">One item deleted.</string>
+    <string name="snack_one_item_finished">One task done.</string>
+    <string name="edit_habit">Edit habit</string>
+    <string name="edit_task">Edit task</string>
+    <string name="edit_time_left">Edit countdown</string>
+    <string name="hint_start_epoch">From</string>
+    <string name="hint_countdown_due">To</string>
+    <string name="snack_start_before_due">The start time seems earlier than the due.</string>
+    <string name="right_arrow">" → "</string>
+    <string name="button_check">Check</string>
+    <string name="button_finish">Done</string>
+    <string name="snack_already_checked">You have already checked this.</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="authors">Authors</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_info">Tell us whatever problems you\'ve met with a GitHub issue.</string>
+    <string name="opensource_license">Open source licenses</string>
+    <string name="opensource_license_info">Thanks for the projects listed, we could get our work done more easily.</string>
+    <string name="unit_day">" Days "</string>
+    <string name="unit_hour">" h "</string>
+    <string name="unit_minute">" min "</string>
+    <string name="time_out">" Time Out! "</string>
+    <string name="end">" End "</string>
+    <string name="finished">" Finished "</string>
+    <string name="set_check_times">I\'ve already kept the habit for</string>
+    <string name="hint_times">how many times?</string>
+    <string name="snack_invalid_times">Please set a valid number for times.</string>
+    <string name="pref_enable_notifications">Enable notifications</string>
+    <string name="pref_clear_data">Clear user data</string>
+    <string name="pref_header_dangerous">Dangerous zone</string>
+    <string name="summary_clear_data">Clear all your tasks, habits and countdowns and never get them back.</string>
+    <string name="pref_set_notification_time">Notification time</string>
+    <string name="noti_title">Trinspect: Notification</string>
+    <string name="noti_task_name">Task Name: </string>
+    <string name="noti_ddl">Dead Line: </string>
+    <string name="go_to_today">Go to today</string>
+    <string name="details">Details</string>
+    <string name="checked">checked</string>
+    <string name="hint_choose_a_countdown">Choose a countdown</string>
+    <string name="choose_a_time_left">Choose countdown</string>
+    <string name="bar_view">Bar</string>
+    <string name="grid_view">Grid</string>
+    <string name="unit_year">" Years "</string>
+    <string name="unit_month">" Months "</string>
+    <string name="unit_week">" Weeks "</string>
+    <string name="no_countdowns">No countdowns</string>
+    <string name="place_holder">_(:з」 ∠)_</string>
+    <string name="pref_title_first_day_of_the_week">First day of the week</string>
+    <string name="statistics_tasks">tasks</string>
+    <string-array name="pref_week_first_day_list_titles">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="pref_week_first_day_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="statistics_habits">habits</string>
+    <string name="statistics_time_left">countdowns</string>
+    <string name="total_items">Total items</string>
+    <string name="statistics_and_achievements"><![CDATA[Statistics & Achievements]]></string>
+    <string name="statistics_total_description">The on-going sessions that you are now with us.</string>
+    <string name="toggle_summary">Toggle summary</string>
+    <string name="statistics_finished_description">The sessions that you have already done.</string>
+    <string name="achievement_description">See what you have achieved with us.</string>
+    <string name="no_achievements">No achievements</string>
+    <string name="no_timeline_to_show">No timeline to show.</string>
+    <string name="confucious_quote">Every day I do self-inspection on three aspects…\nDid I spread any idea without practicing it?</string>
+    <string name="the_analects">The Analects of Confucious</string>
+    <string name="help_title_add_new">Add new</string>
+    <string name="help_description_add_new">Simply flip the add button to add a new item.</string>
+    <string name="help_title_task">Be organized</string>
+    <string name="help_description_task">Inspect your tasks at hands.\nTrinspect will help you organize the due days of events.</string>
+    <string name="help_description_habit">Develop a new habit. \nCheck them out regularly with Trinspect.</string>
+    <string name="help_title_habit">Be new</string>
+    <string name="help_title_time_left">Be self-educated</string>
+    <string name="help_description_time_left">See your time left. \nYou can see how many days are left for your life, your college years or your career in Trinspect.</string>
+    <string name="help_title_calendar">Calendar View</string>
+    <string name="help_description_calendar">In calendar view, you can see your Trinspects visually on a calendar.</string>
+    <string name="help_title_nav">Side navigation</string>
+    <string name="help_description_nav">Find your achievements, statistics and timelines in the side navigation.</string>
+    <string name="start_trinspect">Start your Trinspect</string>
+    <string name="trinspect_description">This is your self-inspection for three times. \nCarpe diem with Note App, and refresh your life.</string>
+    <string name="gpl_description">COMSATS University Islamabad Vehari campus</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<content>app</content>
+	<comment>Project app created by Buildship.</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<content>org.eclipse.jdt.core.javabuilder</content>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<content>org.eclipse.buildship.core.gradleprojectbuilder</content>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+	</natures>
+</projectDescription>

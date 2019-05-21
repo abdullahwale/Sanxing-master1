@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">三省</string>
+    <string name="hello_blank_fragment">Hello world!</string>
+    <string name="tab_habits">习惯</string>
+    <string name="tab_tasks">任务</string>
+    <string name="tab_time_left">余时</string>
+    <string name="tab_learn">学习</string>
+    <string name="navigation_drawer_close">关闭导航</string>
+    <string name="navigation_drawer_open">打开导航</string>
+    <string name="calendar">日历</string>
+    <string name="help">帮助</string>
+    <string name="settings">设置</string>
+    <string name="statistics">统计</string>
+    <string name="supports">支持</string>
+    <string name="about">关于</string>
+    <string name="timeline">时间线</string>
+    <string name="achievements">成就</string>
+    <string name="hint_task_title">标题</string>
+    <string name="create_new_task">新任务</string>
+    <string name="hint_due">期限日</string>
+    <string name="hint_due_time">时间</string>
+    <string name="hint_description">描述</string>
+    <string name="snack_date_not_set">您还没有选择一个期限日。</string>
+    <string name="snack_op_set">设定</string>
+    <string name="snack_time_not_set">您还没有选择一个截止时间。</string>
+    <string name="snack_title_not_set">还没有写标题。</string>
+    <string name="snack_time_passed">已经是过去了。</string>
+    <string name="confirm">确认</string>
+    <string name="time">时间</string>
+    <string name="hint_freq">频率</string>
+    <string name="create_new_habit">新习惯</string>
+    <string name="thrice_a_day">一日三次</string>
+    <string name="twice_a_day">一日两次</string>
+    <string name="every_day">每天</string>
+    <string name="once_two_days">两天一次</string>
+    <string name="once_three_days">三天一次</string>
+    <string name="once_a_week">一周一次</string>
+    <string name="once_a_fortnight">半月一次</string>
+    <string name="once_a_month">一月一次</string>
+    <string name="hint_importance">重要性</string>
+    <string name="create_new_time_left">新倒计时</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="undo">撤销</string>
+    <string name="snack_one_item_deleted">删除了一个项目。</string>
+    <string name="snack_one_item_finished">完成了一个项目。</string>
+    <string name="edit_habit">编辑习惯</string>
+    <string name="edit_task">编辑任务</string>
+    <string name="edit_time_left">编辑倒计时</string>
+    <string name="hint_quick_add">快速添加</string>
+    <string name="hint_start_epoch">从这时</string>
+    <string name="hint_countdown_due">到结束</string>
+    <string name="snack_start_before_due">起始时间似乎比结束时间早呢。</string>
+    <string name="right_arrow">" → "</string>
+    <string name="button_check">打卡</string>
+    <string name="button_finish">完成</string>
+    <string name="snack_already_checked">您已经打过卡了。</string>
+    <string name="authors">作者</string>
+    <string name="feedback">反馈</string>
+    <string name="feedback_info">通过GitHub Issue向我们反馈。</string>
+    <string name="opensource_license">开源许可证</string>
+    <string name="opensource_license_info">感谢这些开源项目让我们能够更加快速地开发。</string>
+    <string name="unit_day">天</string>
+    <string name="unit_minute">分</string>
+    <string name="unit_hour">小时</string>
+    <string name="time_out">" 已超时 "</string>
+    <string name="end">" 已结束 "</string>
+    <string name="finished">" 已完成 "</string>
+    <string name="set_check_times">我已经坚持这个习惯有</string>
+    <string name="hint_times">几次</string>
+    <string name="snack_invalid_times">请输入一个有效的打卡次数。</string>
+    <string name="pref_enable_notifications">开启提醒</string>
+    <string name="pref_header_notifications">提醒</string>
+    <string name="pref_ringtone_silent">静音</string>
+    <string name="pref_title_vibrate">震动</string>
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_clear_data">清除用户数据</string>
+    <string name="pref_header_dangerous">三思后行</string>
+    <string name="summary_clear_data">清除所有任务、习惯和倒计时数据，清空的数据将无法找回。</string>
+    <string name="pref_set_notification_time">提醒时间</string>
+    <string name="noti_title">三省: 任务提醒</string>
+    <string name="noti_task_name">任务名称: </string>
+    <string name="noti_ddl">截止日期: </string>
+    <string name="go_to_today">转到今天</string>
+    <string name="details">详情</string>
+    <string name="checked">已打卡</string>
+    <string name="hint_choose_a_countdown">选取一个倒计时</string>
+    <string name="choose_a_time_left">选取倒计时</string>
+    <string name="bar_view">进度条</string>
+    <string name="grid_view">网格</string>
+    <string name="unit_year">年</string>
+    <string name="unit_month">月</string>
+    <string name="unit_week">周</string>
+    <string name="no_countdowns">尚无倒计时</string>
+    <string name="place_holder">_(:з」 ∠)_</string>
+    <string name="pref_title_first_day_of_the_week">一周起始于</string>
+    <string-array name="pref_week_first_day_list_titles">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="pref_week_first_day_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="statistics_tasks">个任务</string>
+    <string name="statistics_habits">个习惯</string>
+    <string name="statistics_time_left">个倒计时</string>
+    <string name="total_items">项目总计</string>
+    <string name="statistics_and_achievements">统计与成就</string>
+    <string name="statistics_total_description">你正在进行的三省：</string>
+    <string name="toggle_summary">切换总计</string>
+    <string name="statistics_finished_description">你已经完成的三省：</string>
+    <string name="achievement_description">和三省同行以来你所取得的成就。</string>
+    <string name="no_achievements">尚无成就</string>
+    <string name="no_timeline_to_show">没有时间线可供显示。</string>
+    <string name="confucious_quote">吾日三省吾身：\n为人谋而不忠乎，\n与朋友交而不信乎，\n传不习乎？</string>
+    <string name="the_analects">《论语·学而》</string>
+    <string name="help_title_add_new">添加新项</string>
+    <string name="help_description_add_new">轻触圆形按钮添加新的项目。</string>
+    <string name="help_title_task">有条不紊</string>
+    <string name="help_description_task">随时查看手头的任务，\n三省可以帮助你理清所有的截止期限。</string>
+    <string name="help_description_habit">养成新习惯，\n在三省，你可以创建习惯并定期打卡。</string>
+    <string name="help_title_habit">坚持不懈</string>
+    <string name="help_title_time_left">修身自省</string>
+    <string name="help_description_time_left">关切剩余时日，\n在三省中看到自己所剩的人生、大学生活或工作岁月。</string>
+    <string name="help_title_calendar">日历视图</string>
+    <string name="help_description_calendar">在日历视图中，你可以更好地查看自己的三省。</string>
+    <string name="help_title_nav">侧边导航</string>
+    <string name="help_description_nav">在侧边导航中找到你的成就、统计和时间线。</string>
+    <string name="start_trinspect">开始你的三省</string>
+    <string name="trinspect_description">从现在起三省吾身，\n珍惜当下，让生活开始不同。</string>
+    <string name="gpl_description">GNU通用公共许可证 第三版</string>
+</resources>

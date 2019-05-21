@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.celestialphineas.sanxing"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UICalendarViews.CalendarActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIOperateItemActivities.NewItemCreation.CreateNewTaskActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/TasksTheme" />
+        <activity
+            android:name=".UIOperateItemActivities.EditItem.EditTaskActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/TasksTheme" />
+        <activity
+            android:name=".UIOperateItemActivities.NewItemCreation.CreateNewHabitActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/HabitsTheme" />
+        <activity
+            android:name=".UIOperateItemActivities.EditItem.EditHabitActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/HabitsTheme" />
+        <activity
+            android:name=".UIOperateItemActivities.NewItemCreation.CreateNewTimeLeftActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/TimeLeftTheme" />
+        <activity
+            android:name=".UIOperateItemActivities.EditItem.EditTimeLeftActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/TimeLeftTheme" />
+        <activity
+            android:name=".UISupportActivities.AboutActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UISupportActivities.SettingsActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIStatistics.StatisticsActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UIStatistics.TimelineActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UISupportActivities.IntroActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name=".timer.MyService"
+            android:process="io.github.celestialphineas.sanxing.timer.myservice" />
+        <receiver android:name=".timer.AlarmReceiver"
+            android:process=":newinst"/>
+    </application>
+</manifest>
